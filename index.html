@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ACL 33</title>
+  
+  
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="root"></div>
+
+
+<form    class="basic-grey">
+    <h1>Contact Form 
+        <span>Please fill all the texts in the fields.</span>
+    </h1>
+    <label>
+        <span>Enter amount :</span>
+   
+		<input type="text" value="1" name="CURR_FR_VAL" id="CURR_FR_VAL" placeholder="Enter amount" />
+    </label>
+    
+
+
+    <label>
+        <span>From :</span>
+		<select id="CURR_FR">
+
+        </select>
+    </label>
+	<label>
+        <span>To :</span>
+		<select id="CURR_TO">
+
+        </select>
+    </label>    
+     <label>
+        <span>&nbsp;</span> 
+        <input type="button" onclick="calcule_curr()" class="button" value="Convert" /> 
+    </label> 
+	<br/>
+	<label>
+        <span>Result</span> 
+        <span id="Result">wxwx</span>  
+
+    </label> 	
+	<br/>
+</form>
+
+
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
